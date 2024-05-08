@@ -1,0 +1,17 @@
+.jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  max-width: 1250px;
+  margin: 20px auto;
+  padding: 20px 5px;
+  gap: 20px;
+}
+.search-job {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+.infinite-scroll-component {
+  overflow: hidden !important;
+}
