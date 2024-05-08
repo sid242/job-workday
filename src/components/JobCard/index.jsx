@@ -42,7 +42,7 @@ const index = ({ jobDetails }) => {
         </div>
       </section>
       <div className='salary'>
-        Estimated Salary: {minJdSalary} - {maxJdSalary} LPA
+        Estimated Salary: {minJdSalary ?? 0} - {maxJdSalary} LPA
       </div>
       <hr />
       <article>
